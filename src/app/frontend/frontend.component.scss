@@ -1,0 +1,16 @@
+.pFrontend{
+    color: var(--third-color);
+}
+.headlineBackground{
+    height: 231px; 
+    width: 100%;
+    background-color: #333333;
+    border-bottom: solid hsl(0, 0%, 30%) 0.1px ;
+    border-top:  solid hsl(0, 0%, 30%) 0.1px ;
+}
+.headlineBackground h2{
+    background-color: #333333;
+}
+.progress, .progress-stacked {
+    border: solid  hsl(0, 0%, 30%) 0.1px ;
+}

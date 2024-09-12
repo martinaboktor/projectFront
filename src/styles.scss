@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    font-family: Poppins;
+    background-color: #333333;
+    color: white;
+}
+:root{
+    --primary-color: #007CED;
+    --third-color: hsl(0, 0%, 50%);
+}
+
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
