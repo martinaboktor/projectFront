@@ -12,3 +12,15 @@
 //     color: var(--third-color) !important;
 //     font-weight: 8px;
 // }
+.btnOne{
+    border: white solid 1px;
+    color: white;
+    border-radius: 30px; 
+    padding: 10px 20px;
+    
+}
+.btnOne:hover{
+    border: none;
+    background-color: white;
+    color: #333;
+}
