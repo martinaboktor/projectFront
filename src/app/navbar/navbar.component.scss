@@ -1,8 +1,10 @@
 .navbarSection a{
-    color: white;
-}
-a span{
+    color: rgba(255, 255, 255, 0.5);}
+.spanR{
     background-color: var(--primary-color) ;
     border-radius: 50%;   
     font-family: Ribeye; 
+}
+.active{
+color: white !important;
 }

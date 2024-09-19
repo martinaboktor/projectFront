@@ -1,5 +1,5 @@
 .headlineBackground{
-    height: 231px; 
+    height: 150px; 
     width: 100%;
     background-color: #333333;
     border-bottom: solid hsl(0, 0%, 30%) 0.1px ;
@@ -8,10 +8,6 @@
 .headlineBackground h2{
     background-color: #333333;
 }
-// .boxP{
-//     color: var(--third-color) !important;
-//     font-weight: 8px;
-// }
 .btnOne{
     border: white solid 1px;
     color: white;
@@ -23,4 +19,7 @@
     border: none;
     background-color: white;
     color: #333;
+}
+p{
+    color: var(--third-color);
 }

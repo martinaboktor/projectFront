@@ -2,7 +2,7 @@
     color: var(--third-color);
 }
 .headlineBackground{
-    height: 231px; 
+    height: 150px; 
     width: 100%;
     background-color: #333333;
     border-bottom: solid hsl(0, 0%, 30%) 0.1px ;
@@ -19,7 +19,13 @@
 }
 .content-width {
     display: inline-block;
-    margin-left: 6%;
     padding: 1% !important;
   }
+  h4 , h5, .h5 {
+    font-size: 1rem;
+}
+p{
+    font-size: 0.8rem;
+
+}
   

@@ -1,11 +1,14 @@
 <nav class="navbar navbar-expand-lg navbar-light navbarSection">
   <div class="container-fluid pt-2">
+    <!-- Brand Section -->
     <a class="navbar-brand d-flex gap-2 ps-3" href="#">
       <div style=" width: 30px; height: 30px; border-radius: 50%; background-color: var(--primary-color); display: flex; justify-content: center; align-items: center;">
-        <span>R</span>
+        <span class="spanR">R</span>
       </div>
-      DevRos
+      <p class="fw-lighter mb-0"><span class="fw-bold">Dev</span>Ros</p>
     </a>
+
+    <!-- Toggler for Small Screens -->
     <button
       class="navbar-toggler"
       type="button"
@@ -17,23 +20,24 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+
+    <!-- Collapsible Content (Navbar Links) -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="">Demo</a>
-          <!-- <a class="nav-link" aria-current="page" routerLink="/" routerLinkActive="active">Demo</a> -->
+        <li class="nav-item me-4">
+          <a class="nav-link" aria-current="page" href="#" routerLink="/demo" routerLinkActive="active">Demo</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="frontend">Front-end skills</a>
+        <li class="nav-item me-4">
+          <a class="nav-link" href="#" routerLink="/frontend" routerLinkActive="active">Front-end skills</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="backend">Back-end skills</a>
+        <li class="nav-item me-4">
+          <a class="nav-link" href="#" routerLink="/backend" routerLinkActive="active">Back-end skills</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio" >Portfolio </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact" >Contact </a>
+        <!-- <li class="nav-item me-4">
+          <a class="nav-link" href="#" routerLink="/portfolio" routerLinkActive="active">Portfolio</a>
+        </li> -->
+        <li class="nav-item me-4">
+          <a class="nav-link" href="#" routerLink="/contact" routerLinkActive="active">Contact</a>
         </li>
       </ul>
     </div>

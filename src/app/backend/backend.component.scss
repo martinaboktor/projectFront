@@ -1,0 +1,31 @@
+.pFrontend{
+    color: var(--third-color);
+}
+.headlineBackground{
+    height: 150px; 
+    width: 100%;
+    background-color: #333333;
+    border-bottom: solid hsl(0, 0%, 30%) 0.1px ;
+    border-top:  solid hsl(0, 0%, 30%) 0.1px ;
+}
+.headlineBackground h2{
+    background-color: #333333;
+}
+.progress, .progress-stacked {
+    border: solid  hsl(0, 0%, 30%) 0.1px ;
+}
+.borderBlue{
+    border-bottom: solid 2px white;
+}
+.content-width {
+    display: inline-block;
+    padding: 1% !important;
+  }
+  h4 , h5, .h5 {
+    font-size: 1rem;
+}
+p{
+    font-size: 0.8rem;
+
+}
+  
